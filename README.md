@@ -1,4 +1,4 @@
-Following the Udemy course, "AWS Certified Big Data Specialty 2020 - In Depth & Hands On!", by Sundog Education by Frank Kane, Frank Kane, Stephane Maarek
+CREDIT: Udemy course, "AWS Certified Big Data Specialty 2020 - In Depth & Hands On!", by Sundog Education by Frank Kane, Frank Kane, Stephane Maarek
 
 # AWS Cadabra App System
 
