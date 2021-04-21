@@ -1,0 +1,30 @@
+}
+  "version": "2021-04-16",
+  "Statement": [
+	{
+	  "Effect": "Allow",
+	  "Principal": {
+		"AWS": "*"
+	  },
+	  "Action": [
+		"es:*"
+	  ],
+	  "Condition": {
+		"IpAddress": {
+		  "aws:SourceIp": [
+			"<your IP>"
+		  ]
+		}
+	  },
+	  "Resource": "arn:aws:es:<region>:<your account id>:domain/cadabra/*"
+	},
+	{
+	  "Effect": "Allow",
+	  "Principal": {
+	    "AWS": "<your iam>
+	  },
+	  "Action": "es:*",
+	  "Resource": "arn:aws:es:<region>:<your account id>:domain/cadabra/*"
+	}
+  ]
+}
